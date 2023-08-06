@@ -1,4 +1,4 @@
-package com.hossein.Store.Photo.Java;
+package com.hossein.Store.Photo.Java.model;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -18,6 +18,8 @@ public class Photo {
 
     @NotEmpty
     private String fileName;
+
+    private String contentType;
 
     @JsonIgnore
     private byte[] data;
