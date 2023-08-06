@@ -1,4 +1,4 @@
-package com.hossein.Store.Photo.Java;
+package com.hossein.Store.Photo.Java.service;
 
 import com.hossein.Store.Photo.Java.model.Photo;
 import lombok.Getter;

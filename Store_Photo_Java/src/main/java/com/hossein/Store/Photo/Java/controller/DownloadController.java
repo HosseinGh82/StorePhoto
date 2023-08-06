@@ -1,5 +1,6 @@
-package com.hossein.Store.Photo.Java;
+package com.hossein.Store.Photo.Java.controller;
 
+import com.hossein.Store.Photo.Java.service.PhotoService;
 import com.hossein.Store.Photo.Java.model.Photo;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;
